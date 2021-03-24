@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bwFrame xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" default_layout="pxabnsnfns00000000101" textdirection="ltr" device="false" fontscale="100" kbshortcuts="false" skip_nav_enabled="true" chromeless="false" outputtype="undefined" theme="classic">
+  <layouts>
+    <layout name="npnxnanbsnfns00000000101" font="Open Sans" controllayout="npnxnanbsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000101" font="Open Sans" controllayout="pxabnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="npxnabnsnfns00000000101" font="Open Sans" controllayout="npxnabnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="npnxnanbnsnfns00000000101" font="Open Sans" controllayout="npnxnanbnsnfns00000000101" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+    <layout name="pxabnsnfns00000000100" font="Open Sans" controllayout="pxabnsnfns00000000100" colorscheme="pxabnsnfns00000000101" string_table="pxabnsnfns00000000101" />
+  </layouts>
+  <control_options>
+    <optiongroups>
+      <optiongroup name="sidebaroptions">
+        <options>
+          <option name="title_enabled" value="true">
+            <options>
+              <option name="title_text" value="Articulate" />
+            </options>
+          </option>
+          <option name="logo_enabled" value="false">
+            <options />
+          </option>
+          <option name="sidebar_enabled" value="false">
+            <options>
+              <option name="sidebarpos" value="left" />
+              <option name="closed" value="false" />
+            </options>
+          </option>
+          <optionlist name="tabs">
+            <listitems>
+              <listitem name="resources" value="false" group="linkright" />
+              <listitem name="outline" value="false" group="sidebar" />
+              <listitem name="glossary" value="false" group="sidebar" />
+              <listitem name="transcript" value="false" group="sidebar" />
+            </listitems>
+          </optionlist>
+          <option name="time_enabled" value="true">
+            <options>
+              <option name="time_format" value="elapsed" />
+            </options>
+          </option>
+          <option name="video_enabled" value="false">
+            <options>
+              <option name="height" value="135" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="menuoptions">
+        <options>
+          <option name="flow" value="free" />
+          <option name="wraplistitems" value="false" />
+          <option name="tooltips" value="true" />
+          <option name="autocollapse" value="true" />
+          <option name="autonumber" value="false" />
+          <option name="enableresultsicons" value="true" />
+        </options>
+      </optiongroup>
+      <optiongroup name="controls">
+        <options>
+          <option name="volume" value="true" />
+          <option name="seekbar" value="false">
+            <options>
+              <option name="readonly" value="false" />
+              <option name="readonlyOnce" value="false" />
+            </options>
+          </option>
+          <option name="pauseplay" value="false" />
+          <option name="replay" value="false" />
+          <option name="search" value="false" />
+          <option name="closed_captions" value="true">
+            <options>
+              <option name="font" value="Open Sans" />
+            </options>
+          </option>
+        </options>
+      </optiongroup>
+      <optiongroup name="bottombaroptions">
+        <options>
+          <option name="bottombar_enabled" value="true" />
+        </options>
+      </optiongroup>
+    </optiongroups>
+  </control_options>
+  <control_layouts>
+    <control_layout name="npnxnanbsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="true" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npxnabnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="npnxnanbnsnfns00000000101">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="false" />
+      <control name="next" enabled="false" />
+      <control name="swipeleft" enabled="false" />
+      <control name="swiperight" enabled="false" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="true" />
+    </control_layout>
+    <control_layout name="pxabnsnfns00000000100">
+      <control name="volume" enabled="true" />
+      <control name="seekbar" enabled="false" />
+      <control name="replay" enabled="false" />
+      <control name="pauseplay" enabled="false" />
+      <control name="logo" enabled="false" />
+      <control name="previous" enabled="true" />
+      <control name="next" enabled="true" />
+      <control name="swipeleft" enabled="true" />
+      <control name="swiperight" enabled="true" />
+      <control name="submit" enabled="false" />
+      <control name="finish" enabled="false" />
+      <control name="submitall" enabled="false" />
+      <control name="resources" enabled="false" />
+      <control name="glossary" enabled="false" />
+      <control name="transcript" enabled="false" />
+      <control name="outline" enabled="false">
+        <controls>
+          <control name="search" enabled="false" />
+        </controls>
+      </control>
+      <control name="close_btn" enabled="false" />
+    </control_layout>
+  </control_layouts>
+  <colorschemes>
+    <colorscheme name="pxabnsnfns00000000101">
+      <color_group name="infopanel">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="title_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="infopanelpopup">
+        <group_colors>
+          <color name="link_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x7C2280" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="link_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="name_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bio_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x999999" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="timer">
+        <group_colors>
+          <color name="duration">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x00D7FF" alpha="100" stop="0" />
+                <color rgb="0x00ABFF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="elapsed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFEE347" alpha="100" stop="0" />
+                <color rgb="0xFCCC2A" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="stroke">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="window">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xEAEAEA" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x000000" alpha="20" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="editor">
+        <group_colors>
+          <color name="slide_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="html_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="listitem">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="lines">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="viewed">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x909090" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="base">
+        <group_colors>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD3D3D3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF7F7F7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="menu_shade">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDBDBDB" alpha="100" stop="0" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slide_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE9E9E9" alpha="100" stop="0" />
+                <color rgb="0xCFCFCF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="button">
+        <group_colors>
+          <color name="btn_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+                <color rgb="0xAFAFAF" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_down">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC7C7C7" alpha="100" stop="0" />
+                <color rgb="0xF4F4F4" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_text_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="checkbox">
+        <group_colors>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="check">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x33CC00" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="logo">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="menu">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="scrollarea">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="0">
+              <colors>
+                <color rgb="0xDEDEDE" alpha="100" stop="0" />
+                <color rgb="0xE8E8E8" alpha="100" stop="128" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF6F6F6" alpha="100" stop="0" />
+                <color rgb="0xF3F3F3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC4C4C4" alpha="100" stop="0" />
+                <color rgb="0xB2B2B2" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCBCBCB" alpha="100" stop="0" />
+                <color rgb="0xBABABA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icons">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD9D9D9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detaila">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA7A7A7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="detailb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xCFCFCF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="searchinput">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xDFDFDF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xADADAD" alpha="100" stop="0" />
+                <color rgb="0xFAFAFA" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="icon">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="button_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover_glow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x6BF8FF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x8A8A8A" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text_active">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="seekcontrol">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF5F5F5" alpha="100" stop="0" />
+                <color rgb="0xC7C7C7" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB1B1B1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xB8B8B8" alpha="100" stop="0" />
+                <color rgb="0xEEEEEE" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="seek_position">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFFFFFF" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_color">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x2D2D2D" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="btn_icon_shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="tabs">
+        <group_colors>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF3F3F3" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x555555" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x333333" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="shadow">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF0F0F0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="transcript">
+        <group_colors>
+          <color name="div">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="outline">
+        <group_colors>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC6C6C6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF9F9F9" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE1E1E1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="search_hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x0000EE" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="resource">
+        <group_colors>
+          <color name="separator">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE0E0E0" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="glossary">
+        <group_colors>
+          <color name="selected_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="selected">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC0E2F1" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x353535" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="hover">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE6E6E6" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="diva">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divb">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE2E2E2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="divc">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xFAFAFA" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xE7E7E7" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="heading_text">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0x444444" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+      <color_group name="volume">
+        <group_colors>
+          <color name="thumb_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xA5A5A5" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_inner">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xD4D4D4" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="thumb_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xC8C8C8" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_border">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xF2F2F2" alpha="100" stop="0" />
+              </colors>
+            </fill>
+          </color>
+          <color name="slider_bg">
+            <fill type="linear" rotation="90">
+              <colors>
+                <color rgb="0xBCBCBC" alpha="100" stop="0" />
+                <color rgb="0xBCBCBC" alpha="100" stop="128" />
+                <color rgb="0xC3C3C3" alpha="100" stop="255" />
+              </colors>
+            </fill>
+          </color>
+        </group_colors>
+      </color_group>
+    </colorscheme>
+  </colorschemes>
+  <string_tables>
+    <string_table name="pxabnsnfns00000000101">
+      <string id="acc_active">active</string>
+      <string id="check_include">Check to include</string>
+      <string id="clear">Clear and return to menu</string>
+      <string id="close">Close</string>
+      <string id="acc_closed_captions">Closed captions. Press the spacebar to toggle captions on and off.</string>
+      <string id="continue">Continue</string>
+      <string id="continueresponsive">Continue</string>
+      <string id="exit">Exit</string>
+      <string id="filter">Filter</string>
+      <string id="finish">FINISH</string>
+      <string id="acc_finish">finish</string>
+      <string id="definition">Definition</string>
+      <string id="acc_definition">definition</string>
+      <string id="glossary">Glossary</string>
+      <string id="terms">Terms</string>
+      <string id="outline">Menu</string>
+      <string id="disabled_orientation">Please rotate your device</string>
+      <string id="next">NEXT</string>
+      <string id="acc_next">next</string>
+      <string id="transcript_chk">Notes</string>
+      <string id="transcript">Notes</string>
+      <string id="bio">Bio</string>
+      <string id="more_info">More info</string>
+      <string id="closed_captions">Captions</string>
+      <string id="acc_pause">pause</string>
+      <string id="acc_play">play</string>
+      <string id="send_an_email">Send an email</string>
+      <string id="prev">PREV</string>
+      <string id="acc_previous">previous</string>
+      <string id="question_list">Question List</string>
+      <string id="acc_replay">replay</string>
+      <string id="resources">Resources</string>
+      <string id="acc_resources">resources</string>
+      <string id="restart">Restart</string>
+      <string id="resume">Resume</string>
+      <string id="search">Search...</string>
+      <string id="acc_search_input">search</string>
+      <string id="search_in">Search in:</string>
+      <string id="search_results">Search Results</string>
+      <string id="acc_skipnavigation">Skip navigation. Press enter to return to the slide.</string>
+      <string id="slide_text_chk">Slide Text</string>
+      <string id="submitall">SUBMIT ALL</string>
+      <string id="acc_submitall">submit all</string>
+      <string id="submit">SUBMIT</string>
+      <string id="acc_submit">submit</string>
+      <string id="acc_volume">volume</string>
+    </string_table>
+  </string_tables>
+  <fonts>
+    <font name="Open Sans">
+      <files>
+        <file bold="true" italic="false" />
+        <file bold="false" italic="false" />
+      </files>
+    </font>
+  </fonts>
+  <sounds enabled="true" />
+  <nav_data>
+    <outline>
+      <links>
+        <slidelink slideid="_player.5sUhL4cUQy2" displaytext="WEB CPNS" expand="true" type="slide">
+          <links>
+            <slidelink slideid="_player.5sUhL4cUQy2.5qfIpUEHy6s" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6IRsP3lZ6jW" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6VZLk0tjFhk" displaytext="TRYOUT" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5UpSWXfNXP2" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6M46CJykyS7" displaytext="1. Theater A di sebuah gedung bioskop memuat tempat duduk yang diatur dari depan ke belakang sebanyak 30 baris. Jika baris pertama terdapat 20 kursi dan selisih ke baris belakangnya konstan 2 baris. Maka berapa kapasitas theater A pada gedung bioskop?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.69C1DaK8tCU" displaytext="2. Saya memperoleh bunga sebesar Rp 1.100.000 dari dua deposito yang masing-masing memiliki bunga sebesar 4% dan 5% dalam satu tahun. Jika jumlah uang yang berada masing-masing deposito tersebut saling dipertukarkan, maka saya akan memperoleh bunga sebesar Rp 1.150.000 total uang yang saya depositokan adalah?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5ooP0FkSU59" displaytext="3. Musa adalah adik Yahya yang usianya 5 tahun lebih muda. Maryam adalah kakak Musa dan usia keduanya berbeda 10 tahun . Jika saat ini Yahya baru saja merayakan ulah tahun ke-20 maka usia maryam adalah?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6QpNSZLLrhg" displaytext="4. 100,102,106,114......" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5muKZA1dhX4" displaytext="5. KEPAK:SAYAP=" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6KL2g0eEEEX" displaytext="6. Semua suku A berkulit cokelat, berambut keriting, dan berbadan kurus. Dodo berkulit hitam dan berambut keriting. Kesimpulan yang tepat adalah?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5hKrGThznKl" displaytext="7. Diberikan A = 25%, B = 15%, C=40% dan D sisanya. Bila X= A/B dan Y=C/D maka" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5Wky23Qp9GN" displaytext="8. H,A,N,A,T...,...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5WchLJtT6SX" displaytext="9. David bekerja sebagai karyawan di sebuah perusahaan di Yogyakarta selama 6 jam per hari dan 6 hari dalam seminggu. David mendapat gaji sebesar Rp. 6000,00 per jam dan uang lembur sebesar Rp 7500,00/jam. Jika dalam 4 minggu David menerima uang sebesar Rp. 976.500,00 maka David lembur selama...Jam." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5xy50ayI8AZ" displaytext="10. Fahmi berlari mengitari lapangan yang berbentuk lingkaran sebanyak 4 kali putaran. Jika jari-jari lapangan 35 m maka fahmi berlari sejauh?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6aO0v29WdJ1" displaytext="11. Jika tinggi tabung p 2 kali tinggi tabung q, sedangkan jari-jari tabung p adalah 1/2 dari jari-jari tabung q, maka perbandingan isi tabung p terhadap isi tabung q adalah…" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6JbcMObuBnE" displaytext="12. Seorang pedagang membeli beberapa ekor anak kambing dengan harga Rp. 800.000,00. Kemudian, ia menjualnya seharga Rp 1.050.000,00 maka keuntungan yang diperoleh pedagang tersebut adalah?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6ew4D6m0Oen" displaytext="13. Seorang pedagang menjual sepatu seharga Rp. 60.000,- dan memperoleh laba sebesar 20% dari harga belinya. Berapa harga belinya?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5uiz1jnU4wI" displaytext="14. Kapal berhubungan dengan …, sebagaimana … berhubungan dengan jeda." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5xivMCJP4YA" displaytext="15. Kasihan sekali orang itu. Hanya sendirian ia ketika mengalami kesusahan, tanpa ada saudara atau kerabatnya yang berusaha untuk membantunya. Pernyataan di atas dapat diperibahasakan dengan …." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.68Uns7jHsFg" displaytext="16. Untuk membentuk pantia sebuah acara, ada 2 orang calon ketua, 3 orang calon sekretaris, dan 2 orang calon bendahara, serta tidak satu pun yang dicalonkan pada dua jabatan yang berbeda. Jika panitia terdiri dari 1 orang ketua, 1 sekretaris, dan 1 bendahara, maka ada berapa cara susunan panitia tersebut dapat dibentuk?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6Gjq4s23pa0" displaytext="17. Untuk membiayai sekolahnya, Wawan berjualan koran. Pada suatu hari ia membeli 50 koran dari agen korannya dengan harga Rp. 2.000,00 tiap koran. Karena hari hujan, ia hanya dapat menjual 30 koran pada pagi hari. Koran yang tersisa dijulnya pada siang hari dengan harga Rp. 1.500,00. Setelah dihitung-hitung, ternyata Wawan menderita rugi sebesar Rp. 10.000,00. Berapa harga jual setiap Koran yang dijajakan Wawan pada pagi hari?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5bzVgr7KBcP" displaytext="18. Bilangan √7000 jika ditulistidak dalam bentuk akar, makaangka pertamanya adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6GkxKxJBA42" displaytext="19. Seorang pedagang membeli gula 5 kg dengan harga Rp. 35.000,00 kemudian dijual dengan harga Rp. 45.000,00. Berapakah besar persentase keuntungan pedagang tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6CH1NIqb3zh" displaytext="20. Dalam suatu kompetisi sepakbola, kesebelasan Persijamenang atas Persebayadengan skor 3-0. KesebelasanPersib kalah atas SemenPadang dengan skor 1-2.Kesebelasan Semen Padangmenang atas Persija denganskor 2-0. Kesebelasan manayang menjuarai kompetisitersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6a1gNl4K4zy" displaytext="21. ....Berhubungan dg gelombang sebagaimana bukit berhubungan dengan....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6HMtljTUp3u" displaytext="22.Korban yang memiliki tabungan kurang dari tiga juta rupiah mendapat bantuan dan hadiah. Yusuf menerima bantuan, tetapi tidak menerima hadiah." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.69Syd0X2DvB" displaytext="23. Bahasa Indonesia baku berfungsi untuk ….." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.656N4pJKTXR" displaytext="24. Kecepatan sebuah kereta api 50% lebih cepat dibandingkan dengan kecepatan sebuah bis.Kedua moda transportasitersebut berangkat dan sampai pada waktu yang sama darikota A ke kota B sejauh 75km. Jika kereta api berhenti disebuah stasiun antara kota A dan B selama 12,5 menit maka kecepatan bis adalah" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5zv9ii3sJpT" displaytext="25. Jurusan Ipa pada suatu sekolah menengah atas terdiri atas dua kelas. Perbandingan jumlah siswa sua kelas tersebut adalah 3:5. Jika selisih jumlah keduanya adalah 18, berapakah jumlah keseuruhan siswa jurusan IPA tersebut?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5pv5mmEmUg2" displaytext="26. Purgatif =....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6bTYXDoCqb4" displaytext="27. Pt. jasa telkom memankan biaya Rp. 480 permenit untuk suatu panggilan dilakukan antara pukul 05.00 sampai dengan pukul 21.00 sampai dengan pukul 05.00. Jika suatu paggilan telepon antara kedua kota tersebut yang mulai dilakukan pada pukul 13.00 adalah sebesar Rp. 12.0000, berapakah biayanya jika percakapan dalam jangka waktu yang sama mulai dilakukan pada pukul 23.00?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6g30EL67vJj" displaytext="28. seorang karyawan bekerja 8 jam sehari. Dalam 1 minggu , ia bekerja selama 5 hari dengan bayaran Rp. 26.000 perjam dan Rp. 30.000 perjam lembur. Dalam sebulan bekerja, ia menerima gaji Rp. 4.520.000. Berapakah jumlah jam lemburnya dalam sebulan???" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6YLE98YpAAZ" displaytext="29. Harga daging bebek hiduo perons Rp. 1.200,00, sementara harga daging bebek goreng per ons adalah Rp.2.500,00. Seekor akan mengalami penyusutan berat 35% setelah digoreng. Berapa keuntungan yang akan diperoleh seseorang jika hasil gorenganya mempunyai berat 8,45 0ns ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5rMz13jpV9w" displaytext="30. Siswa berprestasi di SDUnggulan membayar SPPsebesar Rp20.000,00 dansiswa tanpa prestasimembayar Rp90.000,00setiap bulan. Jika jumlahpembayaran SPP seluruh siswasebesar Rp 18.240.000,00dan banyaknya siswa tanpaprestasi adalah 80% darijumlah seluruh siswa makabanyaknya siswa tanpaprestasi adalah …orang." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5rhswz5slm6" displaytext="31. jawablah pertanyaan dibawah ini yg benar" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5eM0ouFh4c2" displaytext="32. Jika masakan diberi bumbu, maka rasanya lezat dan mengundang selera. A adalah masakan yang rasanya tidak lezat dab tidak mengundang selera...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5wBK7RWTxJo" displaytext="33. JAWABLAH PERTANYAAN DIBAWAH INI DENGAN BENAR." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5mYNtEpr7sw" displaytext="34. 1/5 BERBANDI 4/5 ADALAH" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6Zi57NNBeWB" displaytext="35. Tentukan suku ke 25 dan barisan deret arimatika : 1,3,5,7........?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6lPBPgqW0VE" displaytext="36. Setiap orang bebas memeluk agama dan beribadat menurut agamanya, setiap orang berhak atas kebebasan meyakini kepercayaan. Oleh sebab itu , UUD mengakui bahwa hak untuk beragama merupakan hak asasi manusia. Sehingga berdasar amanah UUD, negara menjamin kemerdekaan tiap-tiap penduduknya untuk memeluk agama. Hak asasi manusia tersebut juga diberikan pembatasan yang diatur dalam peraturan perundang-undangan yaitu salah satunya hormat-menghormati pemeluk agama lainnya. Hal tersebut didasarkan pada pancasila sila?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6SfyLIqlt1Z" displaytext="37. Pancasila sebagai sistem filsafat, setiap bagiannya tidak saling bertentangan meskipun berbeda saling melengkapi dan tiap bagian mempunyai fungsi dan kedudukan tersendiri. Bagian tersebut merupakan satu kesatuan yang bersifat organi, bentuk susunanya yaitu Hirearkhis-Piramida. Hal tersebut merupakan difat pancasila?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6cqLdjYOeFP" displaytext="38. Untuk mengatur penyelenggaraan ketatanegaraan indonesia, digunakan pancasila sebagai dasar. Kedudukan pancasila dalam hal ini sebagai?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6a1JdXdOC6o" displaytext="39. Organisasi ini awalnya didirikan dengan tujuan untuk memberikan bantuan pada para pedagang pribumi, serta melindungi kegiatan ekonomi pedagang islam agar dapat terus bersaing dengan pengusaha Cina. Agama islam digunakan sebagai faktor pengikat dan penyatu kekuatan pedagang islam yang saat itu juga mendapat tekanan dan kurang diperhatikan oleh pemerintah kolonial belanda. Organisasi ini terus berkembang dan berganti nama pada tahun 1912 dengan tujuan pada anggaran dasarnya yaitu...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.64OoMpSAsnY" displaytext="40. Salah satu unsur negara demokratis adalah adanya peradilan yang bebas dan tidak memihak , yaitu......" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.64SbcI4Nlfo" displaytext="41. Perang ini bermula dari perundingan linggarjati dimana belanda hanya mengakui sumatera , jawa dan madura sebagai wilayah tetorial indonesia secara de facto, sementara tidak untuk pulau seribu idaman, bali. Belanda berniat untuk menegakan berdirinya negara indonesia timur. Namun letnan kolonel I gusti ngurah rai yang menjabat sebagai komandan resiman nusa tenggatara menolak dengan tegas. penolakan tersebut berujung dengan perlawanan bersenjata pada tanggal 20 nopember 1946, makna dari nama perperangan tersebut yaitu?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6b1Mq8LEQ6O" displaytext="42.Surat kabar yang didirikan oleh Danudirja setiabudi yang keras mengkritik pemerintah kolonial belanda dan menjadi wadah bagi pemula untuk menyalurkan tulisan yang menyerang politik kolonialisme belanda di indonesia adalah...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.63kc03NS4mJ" displaytext="43. Giyatri merupakan seseorang pejabat tinggi di lingkup pemerintahan daerah sleman yang terkenal memiliki sikap baik, menghargai satu sama lain walaupun berbeda suku, agama dan ras. Gayatri tidak memaksakan kehendaknya walau dia sebagai seorang pemimpin. sikap gayatri mencerminkan sikap mempertahankan persatuan dan kesatuan bangsa indonesia berlandaskan pada prinsip." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5V8kGCaYRfs" displaytext="44. Manusia sebagai ciptaan Tuhan Yang Maha Esa didudukan sesai dengan harkat, martabat dan kodratnya merupakan esensi nilai pancasila ...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6MMNSuthpeG" displaytext="45. Arah pandang dari wawasan nusantara yang memiliki tujuan penjaminan perwujudan persatuan dan kesatuan seluruh aspek kehidupan alamiah ataupun sosial merupakan arah pandang ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6KNaTtIINdo" displaytext="46. Suku bangsa indonesia terdiri dari lebih dari 3000 jumlahnya. Keberadaan suku bangsa tersebut harus dipertahankan atas nama bangsa indonesia dan identitas nasional. Hal yang perlu di hindari dari besarnya suka bangsa indonesia adalah ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6GzLqLX3Fro" displaytext="47. Percampuran antara dua kebudayaan atau lebih yang kemudian membetuk kebudayaan baru dikenal dengan istilah ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5a8z5TzUlkt" displaytext="48. Negara dalam memperjuangkan dan menggalang persatuan dan kesatuan sudah di konsepsikan dalam dasar negara pancasila dan UUD 1945. Strategi yang digunakan adalah menyatukan bangsa indonesia dalam satu kesatuan. Strategi tersebut dinamakan ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5V6rRLfOqE0" displaytext="49. Bentuk nilai dan norma yang bersifat universal adalah ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5aGYmYBGC2K" displaytext="50. Pancasila sebagai dasar negara memiliki makna dan arti disetiap lambangnya. Sesuai dengan UUD 1945 Pasal 36 A, lambang rantai yang berbentuk persegi empat dan lingkaran merupakan represenasi lambang sila ke ...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6bW7iumdHsy" displaytext="51. Fenomena sejarah terhadap perumusan sila sila pancasila dalam piagam jakarta memberikan pelajaran berarti bagi warganegara Indonesia. Fenomena tersebut mengajarkan sikap saling menghargai dan bertentangan dengan sila ...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.64FvnshVZAD" displaytext="52. Bentuk pembelajaran yang diamanatkan dalam pembangunan infrastruktur di negara Indonesia terkait dengan integrasi nasional adalah ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6UIWOhR7aNg" displaytext="53. Perilaku mudah  dilakukan oleh seluruh warga negara indonesia dalam mendukung proses integrasi nasional adalah ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6GPWLz9IOBJ" displaytext="54. Budaya negara indonesia sebagai salah cerminan integrasi nasional dan hampir dilakukan diseluruh wilayah NKRI adalah ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6MH6cCMb6aS" displaytext="55. Pancasila sebagai suatu ideologi tidak bersifat kaku dan tertutup, namun bersifat reformatif, dinamis,dan terbuka. Hal ini dimaksudkan bahwa ideology Pancasila…" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6owJuY8xzsu" displaytext="56. Penggunaan bahasa indonesia dengan baik dan benar mampu  ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6pVvUtx1TSS" displaytext="57. Kata integrasi nasional berasal dari serapan bahasa inggris integrate yang memiliki menyatupadukan, menggabungkan dan mempersatukan. Makna tersebut dalam pendekatan wawasan nusantara indonesia memiliki arti ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5wMVODPD5sZ" displaytext="58. Faktor pendorong utama yang mendukung adanya integrasi nasional adalah ....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6TfLIvqPl7B" displaytext="59. Konsep empat pilar kebangsaan yang dikenal sampai saat ini merupakan gagasan ketua MPR RI yang bernama...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6A5N1bDNKKi" displaytext="60. Hakikat dari pokok-pokok pikiran pembukaan UUD 1945 merupakan ...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5khfP6xAFRd" displaytext="61. Setiap warga negara berhak mendapat pendidikan merupakan amanat UUD 1945 pada pasal ...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6OAWcYcPFML" displaytext="62. Sistem pemerintahan sesuai dengan teory jhon locke diterapkan di Indonesia dengan pembagian kekuasaan menjadi ...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6IWC83tLHdv" displaytext="63. Bu fia didalam bekerja selalu diancam masalah gaji tidak dibayar, sehingga bu fia direndahkan dan diremehkan. Dalam SK (Surat Keputusan ) Yayasan bila sudah memenuhi kewajiban mengajar maka hak seorang pengajar diberikan secara tuntas. Dan di setiap ancaman yang bu fia dapatkan, selalu jalankan kewajiban dan kewajiban setelah itu menuntut hak. Padahal bu fia sudah menjalankan kewajibannya dan juga Bu fia mendapatkan kekerasan dalam hal memberikan pendapat yaitu diancam untuk dikeluarkan dan tidak boleh menjadi seorang dosen dan guru karena dianggap tidak layak. Hal ini termasuk pelanggaran dalam sila ke?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6YNdxToexPN" displaytext="64. Bu diah di hina karena mampu membeli mobil, padahal gaji bu diah dibawah standart sehingga bu diah digosipkan melakukan pekerjaan tercela yaitu menjadi wanita panggilan melalui video call padahal bu diah tidak hanya mendapatkan penghasilan dari sumber salah satu saja, jadi apa yang dialami bu diah termasuk pelanggaran sila ke?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6dVxE2yWx98" displaytext="65. Bhinneka Tunggal Ika adalah semboyan bangsa Indonesia yang tertulis pada lambang negara Indonesia sebagai dasar Negara Indonesia. Perumusan semboyan Bhinneka Tunggal Ika dilakukan oleh ...." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6HnTmlwHyYD" displaytext="66. Saat jam istirahat ada seorang klien dari luar kota ingin menemui Anda. Klien tersebut terburu-buru karena harus segera menuju bandara untuk pulang ke daerahnya. Sikap Anda …." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6d2BiYRV71l" displaytext="67. Anda senang sekali bekerja pada divisi pelayanan, akan tetapi pengalaman kerja Anda masih minim sehingga mengharuskan Anda bekerja pada posisi administrasi. Maka yang Anda dapat lakukan adalah …." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5rqYBtwfF92" displaytext="68. Suatu hari ada seorang klien berkebangsaan asing menemui Anda untuk berkonsultasi. Anda tidak mengerti bahasa yang ia gunakan. Sikap Anda …." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6aTKZkbFPfP" displaytext="69.  Seluruh pekerjaan telah selesai saya kerjakan namun jam kerja hari ini masih tersisa sekitar 2 jam lebih." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6CIHQsaVbbY" displaytext="70. Anda adalah seorang anggota unit biasa. Saat ini unit anda dihadapkan pada situasi rumit yang membutuhkan pengambilan keputusan saat ini juga dari pimpinan unit,padahal pimpinan unit baru tiba di kantor 4 jam lagi. Sikap Anda adalah…." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5WUsg2Py2lj" displaytext="71. Ada pekerjaan yang terbengkalai karena orang yang seharusnya bertanggung jawab pindah kerja, maka saya…" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5dx35Y48Ib1" displaytext="72. Anda adalah seorang kepala instansi di suatu instansi pemerintah. Ketika Anda ke kantor, tiba-tiba seorang warga masyarakat menghampiri dan mencaci maki karena pelayanan di instansi pemerintah yang Anda pimpin buruk. Bagaimana sikap Anda?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.68wWfPSM2XK" displaytext="73. Rekan tim Anda dimarahi oleh atasan karena mengumpulkan laporan tugas terlambat. Hal ini disebabkan karena rekan yang dimarahi tersebut bertugas merekapitulasi data-data yang dikumpulkan oleh Anda dan rekan tim lainnya yang juga terlambat menyerahkan hasil pengumpulan data kepada rekan yang sedang dimarahi tersebut. Apa yang akan Anda lakukan ?  " expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6W1WEY7n8PU" displaytext="74. Sebagai peserta lomba dalam HUT perusahaan di tempat saya bekerja, yang diikuti oleh semua kolega perusahaan, maka saya akan…." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5YQbfwhLEXm" displaytext="75. Rian adalah seorang ketua kelompok motor vespa. Sebenarnya ia belum lama bergabung, namun karena sifatnya luwes dan mudah bergaul sehingga ia terpilih menjadi ketua. Adapun setelah menjadi ketua sifatnya mulai berubah, ia cenderung otoriter dan keputusannya sulit diubah. Jika Anda sebagai bagian dari kelompok motor vespa dimaksud, apa yang akan Anda lakukan ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6WfQiLwZgui" displaytext="76. Teman dekat Anda akan merayakan ulang tahun anaknya dan Anda diundang pada acara tersebut. Namun disisi lain, anak Anda sedang sakit keras dirumah. Bagaimana sikap Anda ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6Hf7E8Mznom" displaytext="77. Suatu hari Anda ditugaskan untuk melaksanakan dinas luar ke suatu desa adat. Di desa tersebut Anda dijamu dengan makanan yang dalam agama Anda, makanan tersebut dilarang untuk dimakan. Bagaimana sikap Anda ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.687rDQV4l6c" displaytext="78. Saat ini saya bekerja di perusahaan yang membutuhkan jam kerja tinggi. Saya khawatir hal ini akan menimbulkan masalah untuk saya dan keluarga saya. Sikap saya adalah....." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5XMkbrzgobO" displaytext="79. Instasi tempat anda bekerja mengadakan rapat kerja dengan seluruh karyawan tentang pengembangan program baru. instasi sedang membutuhkan banyak usulan untuk menyusun program baru tersebut. Setiap karyawan pasti memiliki ide yang cermelang untuk keberhasilan program tersebut. Sikap anda dalam mengikuti rapat tersebut adalah......." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6629DdT5T5q" displaytext="80. Di lingkungan kerja saya yang baru, yang harus saya lakukan adalah…." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6lxojYWSMqK" displaytext="81. Perubahan struktur kepemimpinan adalah hal yang wajar, suatu ketika terjadi pergantian pimpinan di unit kerja saya. Sikap saya adalah …" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5fcfssfxSTf" displaytext="82. Jika rencana saya melakukan inovasi pekerjaan ditentang oleh rekan kerja saya, maka" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6PplXu1PDKa" displaytext="83.  Suatu hari Anda sedang makan siang bersama rekan kerja disebuah rumah makan. Kemudian, datang seorang anak gelandangan  yang mengatakan bahwa ia lapar sehingga meminta uang atau sisa makanan. Bagaimana sikap Anda ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6N6j7FwY7xH" displaytext="84. Anda baru saja menikah. Pasangan Anda telah mempersiapkan masakan spesial dengan susah payah. Namun, sayangnya Anda tidak menyukai bahan utama masakan tersebut, karena membuat alergi dan mual. Bagaimana sikap Anda dalam keadaan tersebut ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.60AwC9hmzDi" displaytext="85. Perusahaan tempat Anda bekerja saat ini mengalami penurunan yang disebabkan atasan baru sangat kaku dan tidak terlalu memahami kondisi pasar, sementara itu Anda sangat memahami kondisi pasar dan mengerti strategi peningkatan target. Apa tindakan yang akan Anda lakukan ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5VzrqqAOevO" displaytext="86. Anda sedang bekerja dikantor dan memiliki tugas untuk mengirimkan file laporan melalui e-mail. Namun, tiba-tiba internet kantor padam. Apa yang akan Anda lakukan ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5f6QXvzm4et" displaytext="87. Anda ditunjuk oleh atasan untuk menjadi ketua tim dalam sebuah kegiatan. Kemudian, Anda menginginkan kegiatan yang sudah dipercayakan oleh atasan tersebut bisa berjalan dengan lancar. Oleh sebab itu, Anda mengadakan rapat persiapan kegiatan dimaksud, bahkan sebelum rapat dimulai sebelumnya Anda telah mempersiapkan rancangan kegiatan menurut versi Anda. Apa yang akan Anda lakukan dalam rapat persiapan tersebut ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6NT26jExxfY" displaytext="88. Siska adalah seorang mahasiswi fakultas kedokteran di universitas ternama. Adapun pada semester pertengahan, dia mengalami depresi berat karena ayahnya meninggal akibat kecelakaan pesawat terbang. Akibat depresi berat itu, Siska terpaksa mengambil cuti dan melakukan terapi pengobatan sampai depresinya sembuh. Kini Siska telah lulus dari kuliahnya dan ingin melanjutkan menjadi dokter spesialis. Namun, panitia seleksi menggugurkannya karena Siska memiliki riwayat gangguan kejiwaan. Menurut Anda, bagaimana sikap panitia seleksi tersebut kepada Siska ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6Q311oLXhdy" displaytext="89.  Kamu sebagai seorang polisi, kemudian ada salah seorang yang minta didahulukan dalam pembuatan SKCK karena lusa harus segera diberikan ke tempat kerja, padahal situasi saat itu pemohon SKCK juga sangat banyak. Sebagai Polisi apa yang harus kamu lakukan ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.69NZY69fFJU" displaytext="90.  Facebook dan twitter adalah media sosial yang sedang digandrungi oleh berbagai kalangan, baik dari kalangan pelajar, pekerja maupun masyarakat luas pada umumnya. Jika Anda memiliki teman dekat yang mengunggah video viral tentang kekerasan di media sosial pribadinya, sebagai teman dekat apa yang akan Anda lakukan ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6OnL88DDvth" displaytext="91.  Anda melihat seorang anak kecil sedang menyebrang di jalan raya yang khawatir bila tidak ada yang menyebrangkan dapat menyebabkan kecelakaan. Jika Anda berada pada situasi tersebut sedangkan waktu ke kantor sudah terlambat 10 menit. Apa yang akan Anda lakukan ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6UUVfqsJE5d" displaytext="92. Anda bekerja sebagai konsultan dibidang sumber daya manusia, kemudian ada seorang atasan perusahaan mempekerjakan Anda. Atasan tersebut mengatakan bahwa kinerja stafnya tidak optimal karena tidak mengetahui potensi dirinya. Apa yang akan Anda usulkan kepada atasan perusahaan tersebut ?" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6eceRXJYSFO" displaytext="93. Karena ruang kantor sempit, maka penambahan sekat untuk karyawan baru terpaksa mempersempit seluruh sekat yang sudah ada termasuk sekat anda." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6rVRpnKjKU9" displaytext="94. Ketika muncul suatu masalah dalam pekerjaan yang kebetulan ada kaitannya dengan hal hal yang menjadi kewajiban saya, maka saya …" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6pXhfpt7pyb" displaytext="95.  Dalam suatu kelompok kerja, biasanya anggota kelompok terdiri dari berbagai latar belakang budaya, dan saya merasa…" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6GJ8JGGHrVt" displaytext="96. Ketika berbelanja di minimarket, kasir melakukan kesalahan penghitungan. Maka sikap saya adalah…" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6mY69tMTHHp" displaytext="97. Jika diberikan tugas kantor yang berat oleh atasan, maka saya" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.66Ti4YqKB4s" displaytext="98. Anda dan teman anda diberi tugas oleh atasan untuk mengerjakan suatu tugas secara berkelompok, namun ternyata teman anda tidak dapat masuk kerja karena sakit selama beberapa hari, padahal anda sedang dikejar deadline, sikap anda..." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6KqdznkXDWp" displaytext="99. Bagi saya kegagalan adalah ….." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6IIH6Ceswj0" displaytext="100,Menurut saya para pemimpin dunia besar itu…." expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5r9Uyz8Ob19" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.6LFYT64Kswm" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5x6Zzy8DZY6" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.67qqAdZtmVT" displaytext="Untitled Slide" expand="false" type="slide" />
+            <slidelink slideid="_player.5sUhL4cUQy2.5v6XjUo2uXZ" displaytext="Untitled Slide" expand="false" type="slide" />
+          </links>
+        </slidelink>
+      </links>
+    </outline>
+  </nav_data>
+  <resource_data description="" />
+  <transcript_data />
+  <glossary_data />
+</bwFrame>
